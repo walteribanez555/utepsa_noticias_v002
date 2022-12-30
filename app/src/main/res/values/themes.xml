@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Utepsa_noticias_v002" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_crimson</item>
+        <item name="colorPrimaryVariant">@color/red_crimson</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_crimson</item>
+        <item name="colorSecondaryVariant">@color/red_crimson</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/red_crimson</item>
+
+
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+
+
+
+    <style name="bg_Noticia">
+        <item name="android:background">@drawable/layout_bg</item>
+    </style>
+
+    <style name="bg_rl">
+        <item name="android:background">@drawable/bg_color_style_light</item>
+    </style>
+
+    <style name="bg_img">
+        <item name="android:background">@drawable/page_lightning</item>
+    </style>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+
+
+
+    android:id="@+id/cardview_noticiaitem"
+    android:layout_margin="12dp"
+    card_view:cardBackgroundColor="@color/cardview_shadow_end_color"
+    card_view:cardCornerRadius="28dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="2dp"
+    card_view:cardUseCompatPadding="true"
+
+
+    >
+    <RelativeLayout
+        style="@style/bg_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/img_thumb"
+            android:layout_width="800dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_utepsa_img"></ImageView>
+
+        <TextView
+            android:id="@+id/txt_title_cardRV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_thumb"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="TITULO DE LA NOTICIA"
+
+
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txt_cat_cardRV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_descripcionRV"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="bottom|end"
+            android:text="Categoria"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_descripcionRV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title_cardRV"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:maxLines="2"
+
+
+            android:text="Junto a nuestras principales autoridades e invitados especiales realizamos un acto solemne por nuestro 𝟐𝟖 𝐀𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐢𝐨, en tan importante ocasión, recibimos 𝐫𝐞𝐜𝐨𝐧𝐨𝐜𝐢𝐦𝐢𝐞𝐧𝐭𝐨𝐬 𝐝𝐞 𝐩𝐚𝐫𝐭𝐞 𝐝𝐞 𝐥𝐚 𝐀𝐬𝐚𝐦𝐛𝐥𝐞𝐚 𝐋𝐞𝐠𝐢𝐬𝐥𝐚𝐭𝐢𝐯𝐚 𝐏𝐥𝐮𝐫𝐢𝐧𝐚𝐜𝐢𝐨𝐧𝐚𝐥 𝐝𝐞 𝐁𝐨𝐥𝐢𝐯𝐢𝐚 𝐲 𝐥𝐚 𝐀𝐬𝐚𝐦𝐛𝐥𝐞𝐚 𝐋𝐞𝐠𝐢𝐬𝐥𝐚𝐭𝐢𝐯𝐚 𝐃𝐞𝐩𝐚𝐫𝐭𝐚𝐦𝐞𝐧𝐭𝐚𝐥, así también por su dedicada labor entregamos 𝐫𝐞𝐜𝐨𝐧𝐨𝐜𝐢𝐦𝐢𝐞𝐧𝐭𝐨𝐬 𝐝𝐞𝐬𝐭𝐚𝐜𝐚𝐧𝐝𝐨 𝐥𝐚 𝐭𝐫𝐚𝐲𝐞𝐜𝐭𝐨𝐫𝐢𝐚 𝐚 𝐥𝐚 𝐞𝐱𝐜𝐞𝐥𝐞𝐧𝐜𝐢𝐚 𝐚𝐜𝐚𝐝𝐞́𝐦𝐢𝐜𝐚 𝐚𝐥 𝐋𝐢𝐜. 𝐑𝐢𝐜𝐚𝐫𝐝𝐨 𝐈𝐛𝐚́𝐧̃𝐞𝐳 𝐲 𝐚 𝐄𝐳𝐚𝐭𝐨𝐥𝐚𝐡 𝐏𝐨𝐮𝐫𝐚𝐡𝐦𝐚𝐫𝐲 𝐊𝐞𝐫𝐦𝐚𝐧𝐲."
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/txt_fechaRV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/txt_descripcionRV"
+            android:layout_alignParentStart="true"
+
+
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="bottom|start"
+            android:text="00/00/0000"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt_descripcionRV"
+            android:layout_alignParentStart="true"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+
+
+            android:layout_marginTop="20dp"
+            android:paddingBottom="10dp"
+
+            android:src="@drawable/ic_touch"></ImageView>
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

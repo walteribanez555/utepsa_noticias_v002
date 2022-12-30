@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Utepsa_Notif_Alfa_001" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_crimson</item>
+        <item name="colorPrimaryVariant">@color/red_crimson</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_crimson</item>
+        <item name="colorSecondaryVariant">@color/red_crimson</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/red_crimson</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+
+    <style name="txt_card">
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <style name="bg_Noticia">
+        <item name="android:background">@drawable/layout_bg_dark</item>
+    </style>
+    <style name="bg_rl">
+        <item name="android:background">@drawable/bg_color_style_dark</item>
+    </style>
+
+    <style name="bg_img">
+        <item name="android:background">@drawable/page_shadow</item>
+    </style>
+</resources>

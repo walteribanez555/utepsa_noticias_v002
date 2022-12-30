@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".project.vista.MainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:fitsSystemWindows="true"
+            android:id="@+id/apBarNoticia">
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/red_crimson"
+
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+
+                android:id="@+id/collapsing_toolbar"
+                app:titleCollapseMode="scale"
+                app:collapsedTitleTextColor="@color/white"
+                app:expandedTitleTextColor="@color/white"
+                android:background="@drawable/ctr_bg"
+                app:collapsedTitleGravity="end"
+
+                >
+                <RelativeLayout
+                    android:id="@+id/top"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/red_crimson">
+
+                    <TextView
+                        android:id="@+id/Textview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+
+
+                        android:layout_marginTop="0dp"
+                        android:letterSpacing="0.19"
+                        android:text="NOTICIAS"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+
+
+                        ></TextView>
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:layout_below="@+id/Textview2"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="-2dp"
+                        android:layout_marginTop="-12dp"
+                        android:layout_marginEnd="2dp"
+
+                        android:text="UTEPSA"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/toolbar"
+
+                    app:layout_collapseMode="pin"
+                    ></androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab_layout_rl"
+
+                android:layout_marginTop="0dp"
+                >
+
+                <com.google.android.material.tabs.TabLayout
+
+                    style="@style/MyCustomTabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="false"
+                    android:animationCache="false"
+                    android:id="@+id/tab_main"
+                    app:tabGravity="fill"
+                    app:tabIndicator="@drawable/back_select_main"
+                    app:tabIndicatorAnimationDuration="250"
+                    app:tabIndicatorAnimationMode="elastic"
+                    app:tabIndicatorGravity="stretch"
+                    app:tabMode="scrollable"
+                    app:tabSelectedTextColor="@color/white"
+                    app:tabTextAppearance="@style/MineCustomTabText"
+
+                    >
+
+
+                </com.google.android.material.tabs.TabLayout>
+            </RelativeLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPageMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tab_layout_rl"
+                android:layout_marginTop="-15dp">
+
+
+            </androidx.viewpager.widget.ViewPager>
+
+            <ProgressBar
+                android:id="@+id/pb_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"></ProgressBar>
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

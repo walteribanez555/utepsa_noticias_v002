@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".project.vista.Loggin"
+
+    >
+
+    <View
+        android:id="@+id/topview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/red_crimson"></View>
+
+    <TextView
+        android:id="@+id/txt_loggin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+
+        android:gravity="center"
+        android:letterSpacing="0.19"
+        android:text="NOTICIAS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_loggin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="-20dp"
+
+
+        android:layout_marginEnd="2dp"
+
+        android:gravity="center"
+
+        android:text="UTEPSA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/img_loggin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/topview"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/log_utepsa"></ImageView>
+
+    <EditText
+        android:id="@+id/txt_emaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_loggin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/txt_backgroundstyle"
+        android:drawableStart="@drawable/ic_emaillogovec"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Email/id"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:paddingLeft="10dp"
+        android:text=""
+        android:textColorHint="@color/light_white" />
+
+    <EditText
+        android:id="@+id/txt_passwordlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_emaillogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/txt_backgroundstyle"
+        android:drawableStart="@drawable/ic_keylogovec"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:text=""
+        android:textColorHint="@color/light_white" />
+
+    <Button
+        android:id="@+id/btn_loggin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_passwordlogin"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="86dp"
+        android:backgroundTint="@color/red_crimson"
+        android:text="Ingresar"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_login"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_passwordlogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable-v24/ctr_bg.xml" value="0.17" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable-v24/custom_imgbuttom.xml" value="0.1355" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable-v24/ic_next.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable-v24/layout_bg.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/back_select_main.xml" value="0.182" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/bg_color_style_dark.xml" value="0.1355" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/bg_color_style_light.xml" value="0.1355" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic__bk_style.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic_emaillogovec.xml" value="0.12" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic_keylogovec.xml" value="0.18" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic_logginpic.xml" value="0.182" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic_settings.xml" value="0.182" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/ic_touch.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/imgview_custom.xml" value="0.194" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/layout_bg_dark.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/page_lightning.xml" value="0.1355" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/page_shadow.xml" value="0.1" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/txt_backgroundstyle.xml" value="0.182" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/txt_colorlight.xml" value="0.136" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/drawable/txt_textdark.xml" value="0.136" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/activity_loggin.xml" value="0.22" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/activity_main_noticia.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/activity_prueba_alexander.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/bg_rl_color.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/cv_enlace.xml" value="0.33" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/cv_noticia.xml" value="0.25" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/fragment_child__main_option.xml" value="0.25" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/fragment_child__main_option__publicar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/fragment_noticia__portada.xml" value="0.16" />
+        <entry key="..\:/Users/walte/Desktop/UTEPSA/Auxiliaturas/2022/ProyectoV2/app/src/main/res/layout/fragment_prueba_alexander.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
